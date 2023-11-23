@@ -23,14 +23,14 @@ const HomePage: NextPage<Props> = ( {pokemons} ) => {
                 <Card.Image
                 src={pokemon.img }
                 width= "100%"
-                height= { 140 }
+                height= { 120 }
               />
             </Card.Body>
             <Card.Footer>
               <Row justify="space-between">
 
-              <Text h5>{pokemon.name}</Text>
-              <Text h6>{pokemon.id}</Text>
+              <Text h4>{pokemon.name}</Text>
+              <Text h5>{pokemon.id}</Text>
               
               </Row>
             </Card.Footer>
